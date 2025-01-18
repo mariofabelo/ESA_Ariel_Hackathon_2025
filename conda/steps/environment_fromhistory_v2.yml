@@ -1,0 +1,169 @@
+name: mla_202411
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+# - python=3.8     # First released: 2019-10; Maintenance status: security
+  - python=3.11    # First released: 2022-10; Maintenance status: security
+# - python=3.12    # First released: 2023-10; Maintenance status: bugfix
+#
+# The Pillars of Scientific Computing
+  - numpy
+  - scipy
+  - pandas
+  - polars
+#
+# Plotting
+  - matplotlib
+  - seaborn
+#
+# Modelling
+  - scikit-learn
+  - lightgbm
+  - xgboost
+  - statsmodels
+# - Catboost
+  - NGBoost
+#
+# Explainability
+  - shap
+#
+# Hyperparameter optimization
+  - optuna
+# - hyperopt
+#
+# Code optimization (speed, memory)
+  - cython
+  - numexpr
+  - numba
+  - psutil
+  - memory_profiler
+  - line_profiler
+  - bottleneck     #  Fast NumPy array functions written in C 
+  - joblib         #  tools to provide lightweight pipelining in Python (parallelization)
+  - dask
+#
+# Jupyter notebooks
+  - jupyter
+  - jupyter_contrib_nbextensions
+  - jupyter_nbextensions_configurator
+  - jupyterlab
+  - nbdime
+  - rise           # Jupyter/IPython Slideshow Extension
+#
+# Exploratory Data Analysis
+  - ydata-profiling
+  - sweetviz
+  - missingno      # https://github.com/ResidentMario/missingno #  Missing data visualization module for Python.
+#
+# Data transformations, Feature generation
+  - unidecode      # reduce Unicode to a 'good enough' ASCII representation
+  - tsfresh
+  - imbalanced-learn
+# - category_encoders
+#
+# Anomaly detection & Monitoring
+  - nannyml
+  - evidently
+  - pyod
+  - PyNomaly
+# - alibi-detect
+#
+# Uncertainty Quantification, Conformal Prediction
+  - crepes
+  - mapie
+#
+# Optimization
+  - pygmo
+#
+# Pipelines
+  - papermill
+#
+# Plotting (others)
+  - hiplot
+  - plotly
+  - altair
+  - bokeh
+# - vega-lite
+  - dtreeviz
+  - matplotlib-venn
+#
+# Image processing
+  - pillow         #  Python Imaging Library (Fork) 
+  - scikit-image   #  "Image processing in Python"
+  - gif
+  - dataframe_image
+#
+# Networks, graphs
+  - networkx
+  - graphviz
+  - python-graphviz
+  - pygraphviz    # https://networkx.org/documentation/stable/install.html#extra-packages
+  - pydot         # Python interface to Graphviz's Dot
+#
+# Versioning
+  - gitpython
+  - watermark
+#
+# Web crawling
+  - html5lib
+  - beautifulsoup4
+#
+# Excel exporters
+  - xlsxwriter
+  - openpyxl
+  - xlrd
+  - xlwt
+  - lxml
+#
+# Dashboards
+  - streamlit
+# - taipy          # "Build Python Data & AI web applications" (pip-only?)
+  - explainerdashboard
+#
+# Databases, Data retrieval
+  - pyodbc
+  - cx_oracle
+  - jpype1         # https://github.com/jpype-project/jpype
+  - sqlalchemy
+  - xmltodict
+  - pypdf          # retrieve text from PDFs, and other PDF manipulations
+  - pathtools      # Pattern matching and various utilities for file systems paths.
+#
+# Data formats
+  - h5py           # interface to the HDF5 binary data format
+  - fastparquet
+#
+# Unit testing, and Data Testing
+  - pandera
+# - great-expectations
+  - hypothesis
+  - pytest
+  - nose
+#
+# Event logging 
+  - loguru         # loguru: Python logging made (stupidly) simple
+#
+# Progress bars
+  - fastprogress
+  - tqdm
+#
+# Platforms
+  - mlflow         # "platform for the machine learning lifecycle"
+  - datarobot
+#
+# Code formatting
+  - autopep8       # "formats Python code to conform to the PEP 8 style guide."
+  - yapf           # A formatter for Python files (used by "Code Prettify" nbextension)
+  - black          # "The uncompromising Python code formatter"
+#
+# Rest APIs
+  - Flask          # https://flask.palletsprojects.com/
+  - FastAPI        # https://github.com/fastapi/fastapi
+#
+# Others
+  - regex          # https://pypi.org/project/regex/
+  - patool         # https://pypi.org/project/patool/ "Patool is an archive file manager."
+#
+#
+prefix: C:\Users\lfs\.conda\envs\mla_202411

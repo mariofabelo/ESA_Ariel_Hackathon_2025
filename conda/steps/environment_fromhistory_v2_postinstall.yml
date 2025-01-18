@@ -1,0 +1,165 @@
+name: ariel_hackathon
+channels:
+  - conda-forge
+dependencies:
+# - python=3.8     # First released: 2019-10; Maintenance status: security
+  - python=3.11.10 # First released: 2022-10; Maintenance status: security
+# - python=3.12    # First released: 2023-10; Maintenance status: bugfix
+#
+# The Pillars of Scientific Computing
+  - numpy=1.24.4
+  - scipy=1.13.1
+  - pandas=1.5.3
+  - polars==1.12.0
+#
+# Plotting
+  - matplotlib=3.9.2
+  - seaborn=0.13.2
+#
+# Modelling
+  - scikit-learn=1.5.2
+  - lightgbm=3.3.5
+  - xgboost=2.1.2
+  - statsmodels=0.14.4
+# - Catboost
+  - ngboost=0.5.1
+#
+# Explainability
+  - shap=0.46.0
+#
+# Hyperparameter optimization
+  - optuna=4.0.0
+# - hyperopt
+#
+# Code optimization (speed, memory)
+  - cython=3.0.11
+  - numexpr=2.10.1
+  - numba=0.60.0
+  - psutil=6.1.0
+  - memory_profiler=0.61.0
+  - line_profiler=4.1.3
+  - bottleneck=1.4.2
+  - joblib=1.4.2
+  - dask=2024.2.1
+#
+# Jupyter notebooks
+  - jupyter=1.1.1
+  - jupyter_contrib_nbextensions=0.7.0
+  - jupyter_nbextensions_configurator=0.6.1
+  - jupyterlab=4.3.0
+  - nbdime=4.0.2
+  - rise=5.7.1
+#
+# Exploratory Data Analysis
+  - ydata-profiling=4.12.0
+  - sweetviz=2.3.1
+  - missingno=0.5.2
+#
+# Data transformations, Feature generation
+  - unidecode=1.3.8
+  - tsfresh=0.20.3
+  - imbalanced-learn=0.12.4
+# - category_encoders
+#
+# Anomaly detection & Monitoring
+  - nannyml=0.12.1
+  - evidently=0.1.22.dev0
+  - pyod=2.0.2
+  - pynomaly=0.3.4
+# - alibi-detect
+#
+# Uncertainty Quantification, Conformal Prediction
+  - crepes=0.7.1
+  - mapie=0.9.1
+#
+# Optimization
+  - pygmo=2.19.7
+#
+# Pipelines
+  - papermill=2.6.0
+#
+# Plotting (others)
+  - hiplot=0.1.33
+  - plotly=5.24.1
+  - altair=5.4.1
+  - bokeh=3.6.1
+# - vega-lite
+  - dtreeviz=2.2.2
+  - matplotlib-venn=1.1.1
+#
+# Image processing
+  - pillow=10.4.0
+  - scikit-image=0.24.0
+  - gif=23.3.0
+  - dataframe_image=0.1.1
+#
+# Networks, graphs
+  - networkx=3.4
+  - graphviz=12.0.0
+  - python-graphviz=0.20.3
+  - pygraphviz=1.14
+  - pydot=3.0.2
+#
+# Versioning
+  - gitpython=3.1.43
+  - watermark=2.5.0
+#
+# Web crawling
+  - html5lib=1.1
+  - beautifulsoup4=4.12.3
+#
+# Excel exporters
+  - xlsxwriter=3.2.0
+  - openpyxl=3.1.5
+  - xlrd=2.0.1
+  - xlwt=1.3.0
+  - lxml=5.3.0
+#
+# Dashboards
+  - streamlit=1.40.0
+# - taipy
+  - explainerdashboard=0.4.7
+#
+# Databases, Data retrieval
+  - pyodbc=5.2.0
+  - cx_oracle=8.3.0
+  - jpype1=1.5.0
+  - sqlalchemy=2.0.36
+  - xmltodict=0.14.2
+  - pypdf=5.1.0
+  - pathtools=0.1.2
+#
+# Data formats
+  - h5py=3.12.1
+  - fastparquet=2024.5.0
+#
+# Unit testing, and Data Testing
+  - pandera=0.20.4
+# - great-expectations
+  - hypothesis=6.118.7
+  - pytest=8.3.3
+  - nose=1.3.7
+#
+# Event logging 
+  - loguru=0.7.2
+#
+# Progress bars
+  - fastprogress=1.0.3
+  - tqdm=4.67.0
+#
+# Platforms
+  - mlflow=2.17.2
+  - datarobot=3.5.2
+#
+# Code formatting
+  - autopep8=2.0.2
+  - yapf=0.40.1
+  - black=24.10.0
+#
+# Rest APIs
+  - flask=2.2.5
+  - fastapi=0.115.4
+#
+# Others
+  - regex=2024.11.6
+  - patool=3.0.3
